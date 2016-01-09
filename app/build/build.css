@@ -8,35 +8,31 @@ header {
   width: 1000px;
   margin: 0 auto; }
 
-.palette-wrapper {
+body {
+  margin: 0;
+  font-family: helvetica;
+  background-color: #ddd;
+  color: #444; }
+
+header {
   width: 1000px;
   margin: 0 auto; }
 
-.palette-cell:hover {
-  background-color: #BBB; }
+.painting-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 1000px;
+  margin: 0 auto; }
 
-.palette-cell {
-  box-sizing: border-box;
-  padding: 7px;
-  display: inline-block;
+.painting {
   width: 200px;
+  display: inline-block;
   position: relative; }
 
-.palette-cell label {
-  box-sizing: border-box;
+.painting label {
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-  display: block;
   max-width: 100%;
-  font-size: 12px;
-  font-style: italic;
-  font-weight: 700;
-  background-color: #e6e6e6;
-  /*margin-top: -5px;*/
-  /*color: #EEE;*/
-  /*position: absolute;*/
-  /*bottom: 0px;*/
-  /*left: 0px;*/
-  padding: 4px;
-  /*background-color: rgba(0,0,0,0.7);*/ }
+  display: block;
+  text-overflow: ellipsis; }
